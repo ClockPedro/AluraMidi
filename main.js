@@ -29,6 +29,8 @@ document.querySelector('.tecla_tom').onclck = tocaSomTom;
 
 const Listadeteclas = document.querySelectorAll('.tecla');
 
-Listadeteclas[0].onclick = tocaSomPom while (none) {
-    
-};
+let contador = 0;
+while (contador < Listadeteclas.lenght) {Listadeteclas ['0'] .onclick = tocaSomPom;
+contador = contador +1;
+console.log(contador);
+}
